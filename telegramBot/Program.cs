@@ -34,7 +34,7 @@ namespace telegramBot
 
         static async Task RunBot()
         {
-            var bot = new TelegramBotClient("1924066180:AAEKC3unRVapTWvaPmTpMLOD431IuJVpOdk");
+            var bot = new TelegramBotClient("your Bot Token");
             var me = await bot.GetMeAsync();
 
             if (me != null)
